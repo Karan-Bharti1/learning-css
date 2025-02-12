@@ -1,3 +1,6 @@
+:root{
+    --primary-color:purple;
+}/* defining colors in root element*/
 #heading{
     color:green;
 }
@@ -9,9 +12,9 @@
     color:blueviolet;
     font-style: italic;
 }
-a:hover{
+/* a:hover{
     color:greenyellow
-}
+} */
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -19,4 +22,20 @@ a:hover{
 .centered-container{
 max-width: 600px;
 margin: auto;
+}
+.link{
+    text-decoration: none;
+}
+.link-primary{
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+padding:5px;
+}
+.link-secondary{
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color:var(--primary-color);
+padding:5px;
 }
