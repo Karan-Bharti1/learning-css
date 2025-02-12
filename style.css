@@ -1,3 +1,11 @@
-h1{
+#heading{
     color:green;
+}
+#para1{
+    color:blue;
+    font-size: 20px;
+}
+.headingTwo{
+    color:blueviolet;
+    font-style: italic;
 }
