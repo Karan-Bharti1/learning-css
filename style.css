@@ -12,3 +12,11 @@
 a:hover{
     color:greenyellow
 }
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+} 
+.centered-container{
+max-width: 600px;
+margin: auto;
+}
