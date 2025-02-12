@@ -39,3 +39,10 @@ padding:5px;
     color:var(--primary-color);
 padding:5px;
 }
+.list-non-bullet{
+list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;/*Short hand property*/
+}
