@@ -13,3 +13,12 @@
     padding:0.5rem;
     background-color: blanchedalmond;
 }
+.card{
+    border:1px solid black;
+    max-width: 250px;
+    padding: 0.5rem;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column; /* By default flex-direction is row*/
+    justify-content: space-between; /* This property works only if there is a display:flex; property for parent elements*/
+}
