@@ -1,6 +1,14 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+   
+}
+.rowAligned{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    border:2px dotted black
 }
 .cards{
     display: flex;
@@ -12,7 +20,9 @@
    background-color: aquamarine;
    padding:1rem;
 }
-
+.end{
+    align-self: end;/* align items work on the parent element and align self works on child element*/
+}
 .nav-items{
     list-style: none;
     border:1px solid black;
