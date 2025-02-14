@@ -1,6 +1,10 @@
 .row{
     display: flex;
 }
+.cards{
+    display: flex;
+    gap:1rem;
+}
 .col{
    border: 1px solid black;
    background-color: aquamarine;
