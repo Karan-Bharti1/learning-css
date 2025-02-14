@@ -1,9 +1,11 @@
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .cards{
     display: flex;
     gap:1rem;
+    flex-wrap:wrap;
 }
 .col{
    border: 1px solid black;
