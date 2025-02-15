@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          
+        }
+        .login-container{
+            border: 1px solid grey;
+            display: flex;
+            flex-direction: column;
+            
+            
+            padding: 2rem;
+        }
+        .login-container button{
+            background-color: blue;
+            color: white;
+            padding: 0.5rem;
+            margin: 1rem;
+            border: none;
+            border-radius: 5px;
+        }
+        .heading{
+            align-self: center;
+            font-size: larger;
+            font-weight: bolder;
+            margin-bottom: 1rem;
+        }
+        .forgot-link{
+            align-self: center;
+        }
+        .forgot-link a{
+            text-decoration: none;
+            color: blue;
+        }
+        .login-container label{
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <p class="heading">Login</p>
+        <label for="Email">Email </label><input id="Email" type="text"/>
+        <label for="Password">Password </label><input id="-Password" type="text"/>
+        <button>Login</button>
+        <p class="forgot-link"><a href="/">Forgot Password?</a></p>
+    </div>
+</body>
+</html>
