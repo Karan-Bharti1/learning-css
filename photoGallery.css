@@ -1,0 +1,46 @@
+body{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      
+}
+.photo-gallery-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+}
+.photo-container h2{
+    justify-self: center;
+}
+.photo-gallery-container .non-active{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.active{
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.non-active:hover{
+    background-color: blue;
+    padding: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+.photo-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+   
+}
