@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border: 6px solid green;
+            width: 300px;
+            padding: 1rem;
+        }
+        .item-row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .button-order{
+            width: 100%;
+            color: white;
+            background-color: green;
+            border: none;
+            padding: 0.5rem;
+            font-size: larger;
+        }
+        .secure-text{
+            justify-self: center;
+        }
+        .total-heading{
+            font-size: larger;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+<h2>Review Order</h2>
+<div class="item-row">
+    <p><strong>ITEM</strong></p>
+   <p><strong>QTY    TOTAL</strong></p>
+</div>
+<div class="item-row">
+    <img src="https://placehold.co/50x50?text=Item1" alt="Item loading..."/>
+<p>1     INR 999</p>
+</div>
+<p>Limited addition cactus print bag</p>
+<p>1litre ,Green Color</p>
+<div class="item-row">
+    <p>Subtotal</p>
+    <p>INR 999</p>
+</div>
+<div class="item-row">
+    <p>GST</p>
+    <p>INR 179</p>
+</div>
+<div class="item-row">
+    <p><span class="total-heading">Grand Total</span></p>
+    <p>INR 1178</p>
+</div>
+<button class="button-order">Place Order</button>
+<p class="secure-text"><em>Cart Secured By Razoy Pay</em></p>
+    </div>
+   
+</body>
+</html>
