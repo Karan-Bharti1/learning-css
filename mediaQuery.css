@@ -1,8 +1,18 @@
-body{
+/* body{
     background-color: blanchedalmond;
+    font-size: 14px;
 }
 @media (min-width:600px) {
  body{
     background-color: aqua;
+    font-size: xx-large;
  }
-}
+} */
+body{
+    background-color: aqua;
+    font-size: xx-large;
+ }
+ @media (max-width:600px) {
+   body{ background-color: blanchedalmond;
+    font-size: 14px;}
+ }
